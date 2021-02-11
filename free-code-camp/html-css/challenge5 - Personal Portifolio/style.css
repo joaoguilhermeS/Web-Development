@@ -1,0 +1,275 @@
+/*User Story #9: My portfolio should have at least one media query.*/
+
+/*User Story #11: The navbar should always be at the top of the viewport.*/
+
+
+@media(max-width:1000px){
+    
+}
+
+
+body{
+    height:100%;
+    margin:0px;
+}
+
+#container-navbar{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    
+}
+
+#navbar{
+    display:flex;
+    align-self:center;
+    justify-content: flex-end;
+    background-color:rgb(93, 252, 72); 
+    height:3em;
+}
+
+#nav-ul{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style-type: none;  
+    margin:0px;
+}
+
+.nav-link{
+    text-decoration: none;
+    /*margin-left:1.2em;*/
+    color:rgb(34, 33, 33);
+    margin-left:1.2em;
+    margin-right:1.2em;
+    font-weight: bold;
+    font-size: 1.1em;
+    color:rgb(32, 29, 29);
+    
+}
+
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+    background-color:rgb(26, 23, 23);
+    margin-bottom:0px;
+    
+}
+
+#my-name{
+    font-size:3em;
+    color:rgb(93, 252, 72); 
+    margin-bottom: 0px;
+}
+
+#my-description{
+    font-size:1.6em;
+    margin-left:10%;
+    margin-right:10%;
+    color: white;
+
+}
+
+.style-subtitles-img{
+    background-color:rgb(34, 33, 33);
+    border-radius:3px;
+    width: 100%;
+    text-align: center;
+    color:white;
+}
+
+#projects{
+    margin:0px;
+}
+#textmain-projects{
+    margin:0;
+    margin-left:2px;
+    margin-top:3px; 
+    font-size:1.2em;
+    text-decoration: underline;
+    color:rgb(52, 99, 99);
+}
+
+.img-class{
+    margin:0px;
+    width:35em;
+    height:auto;
+    align-self:center;
+    justify-self: center;  
+}
+
+
+
+#layout-projects{
+    margin-top:0px;
+    display:grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 50%;
+    grid-column-gap:10px;
+    margin:0px;
+    margin-left:10px;
+    margin-right: 10px;
+    
+    
+}
+
+figure{
+    margin:0px;
+    margin-top:0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    width:auto;
+    
+    
+    
+}
+
+figcaption{
+    font-size:0.8em;
+    font-weight: bold;
+}
+
+
+
+#about-me{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgb(26, 23, 23);
+    color:white;
+    height:50vh;
+    width: 100%;
+    margin:0;
+    
+}
+
+#h1-aboutme{
+    margin:0px;
+}
+
+#p-aboutme{
+    margin:0px;
+}
+
+#navfooter-ul{
+    
+    font-size:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;  
+    margin:0px;
+    padding: 0;
+   
+}
+
+.navfooter-li{
+    margin:0px;
+}
+
+#navfooter{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin:0px;
+    margin-top:0.7em;
+}
+
+.footer-link{
+    text-decoration: none;
+    /*margin-left:1.2em;*/
+    color:rgb(34, 33, 33);
+    font-size:0.8em;
+    margin-left:1.4em;
+    margin-right:1.4em;
+    font-weight: bold;
+    font-size: 1.5em;
+    color:white;
+
+}
+
+
+.image-ico{
+    width:1em;
+    height:1em;
+    background-color:white;
+    border-radius: 8px;
+}
+
+.div-ico{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#divisor-below-page{
+    border: none; 
+    height: 12px; 
+    background-color:rgb(93, 252, 72);  
+    margin:0px;
+    
+}
+
+#flex-footer{
+    color:white;
+    margin:0px;
+    background-color:rgb(26, 23, 23);
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#p-footer{
+    margin-right:5px;
+}
+
+#final-link{
+    color:white;
+    font-weight: bold;
+}
+
+#fig1-grid{
+    /*
+    align-self:center;
+    justify-self: center;
+    */
+}
+
+#fig2-grid{
+    /*
+    align-self:center;
+    justify-self: center;
+    */
+}
+
+#fig3-grid{
+    /*
+    align-self:center;
+    justify-self: center;
+    */
+}
+
+#fig4-grid{
+    /*
+    align-self:center;
+    justify-self: center;
+    */
+}
+
+.figure-link{
+    height:20em;
+    width:auto;
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+}

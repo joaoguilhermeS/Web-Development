@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC:Survey form</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'> <!--importing the style font Lobster-->
+    <link href= 'https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap' rel='stylesheet'> <!--importng font Poppins-->
+
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <h1 id="title">Income Survey</h1>
+        <p id="description">It's a form about an Income Survey to intify the Perfil of Income Class in Brazil</p>
+    </header>
+
+    <form id="survey-form" action="Submit">
+        
+    <div class="form-pattern">
+        <label for="name" id="name-label"><strong>Name</strong></label>
+        
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br>
+
+        <label for="email" id="email-label"><strong>Email</strong></label>
+       
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br>
+
+        <label for="number" id="number-label"><strong>Age(optional)</strong></label>
+        
+        <input min=0 max=200 type="number" name="number" id="number" placeholder="Enter your age" optional>
+        <br>
+        <!--User Story #8: If I enter non-numbers in the number input, I will see an HTML5 validation error.-->
+        <!--User Story #9: If I enter numbers outside the range of the number input, which are defined by the min and max attributes, I will see an HTML5 validation error.-->
+    
+        
+        <label id="dropdown-label" for="cars"><strong>Which option best describes your current role?</strong></label>
+        
+        <select name="choice-occupation" id="dropdown">
+        <option value="student">Student</option>
+        <option value="employe">Employe</option>
+        <option value="employer">Employer</option>
+        <option value="unemployed">Unemployed</option>
+        </select>
+        
+
+        <div class="radio-group">
+            <p id="i-b"><strong>Select the income perfil that most define you</strong></p>
+            <div id="dropdown-space">
+                <label class="input-radio"> 
+                <!--Tests are here-->
+                <input name="income-bracket" value="poor"  type="radio" class="input-radio" checked> (0-1000)$
+                <label>
+                <br>
+                <label class="input-radio">
+                    <input name="income-bracket" value="middle-class"   type="radio" class="input-radio">(2000-8000)$
+                </label>
+                <br>
+                <label class="input-radio">
+                    <input type="radio" name="income-bracket" class="input-radio" value="high-class">(8000-50000)$
+                </label>
+                <br>
+                <label class="input-radio">
+                    <input type="radio" name="income-bracket" class="input-radio" value="rich">(50000 - <span id="infinite-symbol">&#8734;</span>)$
+                </label>
+            </div>
+        </div>
+
+        <div class="checkbox-group">
+            <p id="i-b-2"><strong>Select what of these items you have at home</strong></p>
+            <label class="input-checkbox">
+                <input name="items-home" value="tv" type="checkbox" class="input-checkbox">
+                TV
+            </label> 
+            <br>
+            <label class="input-checkbox">
+                <input type="checkbox" name="items-home" class="input-checkbox" value="laptop">
+               Laptop
+            </label>
+            <br>
+            <label class="input-checkbox">
+                <input type="checkbox" name="items-home" class="input-checkbox" value="desktop">
+                Computer Desktop
+            </label>
+            <br>
+            <label class="input-checkbox">
+                <input type="checkbox" name="items-home" class="input-checkbox" value="washing-machine">
+                Washing Machine
+            </label>
+
+            <div id="textarea-group">
+                <p id="i-b-3"><strong>If you can, you can describe your situation and expectation below</strong></p>
+
+                <textarea name="input-textarea" class="input-textarea" id="comments" placeholder="Enter your comments here..."></textarea>
+            </div>
+
+            <div id=submit-section>
+                <button type="submit" id="submit" class="submit-button">Submit</button>
+            </div>
+            
+
+
+        </div>  
+
+
+            
+
+        </div>
+
+
+        
+
+
+            
+
+
+
+
+
+
+              
+            
+        
+
+    </form>
+    
+</body>
+</html>

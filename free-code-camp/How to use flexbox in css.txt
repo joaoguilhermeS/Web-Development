@@ -1,0 +1,21 @@
+Main-content
+----------------------------------------------------------------
+display:flex;
+flex-direction:row / column
+justify-content(main axis): flex-start / flex-end / center/ space-around / space-evenly / center
+align-items(secondary axis): flex-start / flex-end / center / stretch / align-items / baseline
+-----------------------------------------------------------------
+
+flex-wrap: nowrap / wrap / wrap-reverse   It set if my Grid will break a line
+ when it content is ful
+
+ALL THIS BELOW SHOULD BE DECLARED ON THE CHILD OF THE ELEMENT
+flex-shrink: 1/2/3/4.. (numbers) It shrinks an elemetn if the flex container is too small
+flex-grow: 1/2/3/4... The opossite of shrink
+flex-basis: sets the initial size before shrink or grow on element 
+Simplification: FLEX: flex-grow flex-shrink flex-basis; The default is 0 1 auto)
+order: 1/2/3/4/5... is the sequence of the elements in the flex layout you can changed it seting the
+align-self: override the align-items and can be used item by item
+
+//axis = eixo
+//axes = eixos 

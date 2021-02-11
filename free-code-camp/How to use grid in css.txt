@@ -1,0 +1,27 @@
+**Simply creating a grid element doesn't get you very far.
+You need to define the structure of the grid as well
+
+display:grid;
+grid-template-columns: 50px; 50px;  (the structure of the grid)
+grid-template-rows: 50px 50px; (how many rows you'll have in your grid)
+
+Units for Size in Grid:
+fr(Special): sets the column or row to a fraction of the available space,
+auto: sets the column or row to the width or height of its content automatically,
+%: adjusts the column or row to the percent width of its container.
+
+grid-column-gap: 10px; (create a gap between the columns of your grid)
+grid-row-gap: 10px; (create a gap(an empty space) between your rows)
+grid-gap: grid-column-gap grid-row-gap (It's a way to create your gaps more faster)
+
+
+Until now we just saw properties for container, now we'll se for items themselves
+
+grid-column: LineThatMyGridStarts/LineThatMyGridEnd
+*You have to image the columns and row lines, for example you have a 3x3 grid your have 4x4(lines) for have 9 spaces
+grid-row: LineThatMyGridStarts/LineThatMyGridEnd (the same of above)
+
+justify-self: start / center / end It serves for align an item horizontally
+align-self:  start / center / end It serves for align an item vertically
+
+grid-template-columns: 100px minmax(50px, 200px);

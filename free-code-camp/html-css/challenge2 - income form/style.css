@@ -1,0 +1,136 @@
+body{
+    background-image: url("https://www.pageuppeople.com/wp-content/uploads/2019/01/Top-60-Employee-Engagement-image43-1024x510.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    /*background-color:#0000ff;*/
+    background-position:center center;
+    background-attachment: fixed;
+
+    font-family: "Poppins";
+   
+}
+header{
+    background-color:pink;
+    display:block;
+    text-align:center;
+    font-family: "Lobster";
+    border-radius:5px;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+
+
+#title{
+    font-size: 2.4em;
+    color:black;
+}
+
+#description{
+    font-size:1.5em;
+    color:black;
+}
+.form-pattern{
+    background-color:rgba(207, 69, 90, 0.301);
+    display:grid;
+    margin:0% 20% 10% 20%;
+    border-radius: 1%;
+    
+    
+}
+#name,#email,#number{
+    height:130%;
+    border-radius:10px;
+    margin-left:1.5%;
+    margin-right:1.5%;
+    margin-top:0.5%; 
+    
+    
+}
+#name-label,#email-label,#number-label,#dropdown-label{
+    font-size:1.3em;
+    padding-bottom:0.5%; 
+    margin-left:1.5%;
+    margin-top:2.5%;
+}
+
+#dropdown{
+    height:180%;
+    border-radius:10px;
+    margin-left:1.5%;
+    margin-right:1.5%;
+    /*padding-bottom:0.5%;*/
+}
+
+#comments{
+    border-radius:10px;
+    height:6em;
+    margin-left:1.5%;
+    margin-right:1.5%;
+    width:96%;
+    margin-bottom:3%;
+}
+
+#textarea-group{
+    display:block;
+    justify-content: center;
+}
+
+
+#i-b{ /*paragraph With the radio buttons - income bracket*/ 
+    font-size:1.4em;
+    height:0.5em;
+    margin-bottom:1.1em;
+    margin-left:1.5%;
+    margin-right:1.5%;
+    margin-top:4%; 
+}  
+
+#i-b-2{ /*paragraph With the radio buttons - income bracket*/ 
+    font-size:1.4em;
+    height:0.5em;
+    margin-bottom:1.1em;
+    margin-left:1.5%;
+    margin-right:1.5%;
+    margin-top:4%; 
+}   
+
+#i-b-3{
+    font-size:1.4em;
+    height:0.5em;
+    margin-bottom:1.1em;
+    margin-left:1.5%;
+    margin-right:1.5%;
+    margin-top:4%; 
+
+}
+
+/*Remember the propierties: padding border and margin */
+
+.input-checkbox{
+    font-size:1.1em;
+    margin-left:1.5%;
+    margin-right:1.5%;
+}
+
+.input-radio{
+    font-size:1.1em;
+    margin-left:1.5%;
+    margin-right:1.5%; 
+}
+
+
+#submit{
+    margin-left:1.5%;
+    margin-right:1.5%;
+    width:97%;
+    background-color:green;
+    font-weight: bold;  
+    font-size:1.2em;
+    margin-bottom:3%;
+    border-radius:10px;
+}
+
+
+
+
