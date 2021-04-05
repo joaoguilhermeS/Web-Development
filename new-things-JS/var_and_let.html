@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difference between var and let variables</title>
+</head>
+<body>
+
+
+
+    <script>
+
+        //CHAPTER ES6
+
+        // Com o var você pode declarar mais de uma vez a mesma variável
+        /*
+        var firstName = "João";
+        var firstName = "José"; --> isso não retorna um erro
+
+        let firstName = "Maria";
+        let firstName = "Rosa"; --> isso retorna um erro, afinal a variável já foi criada
+
+        ->O escopo de var é limitado ao código todo ou a função ao qual foi declarado4
+        ->O escopo da set é mais parecido com as variáveis locais do c++
+        */
+
+
+        /* Forma tradicional
+            //Revision functions in JavaScript
+
+            function functionName(){
+                console.log("Hello world");
+            }
+
+            html.H1(functionName()) // para chamar a função
+
+            Para colocar argumentos também é algo trivial, só lembrando que da pra printar tipo python: console.log(var1,var2)
+        */
+
+        /*
+            parseInt("number_in_string") -> return the inter number ?(if not) => return NaN
+
+            parseInt(string, radix); -> return the number (in the base you choiced) ?(if not) => return NaN
+        */
+
+
+
+
+
+//--------------------------------------------------------------------------------- Arrow Functions and New more stuff(04-03-2021)
+        /*
+        Arrow functions to write anonymous functions (like lambda in python!?)
+
+        -> sintax:  
+            const myFunc = function(){
+                const myVar  = "anyname";
+                return myVar;
+            }
+
+            //EcmaScript(ES6)6 gives us a "sugar way":
+                const myFunc = () =>{  // const myFunc = function(){
+                    const myVar  = "anyname";
+                    return myVar;   
+                }
+
+                when the body is empty:
+                const myFunc = () => "returning this way"
+        */
+
+
+
+        /* Arrow Functions with parameters
+
+        const myFunc = (parameter1,parameter2,...) => {
+            body
+            return "something"
+        }
+
+        const myFunc = (parameter1,parameter2,...) => return "something"
+        ----
+        if the function have just one input parameter could be this way:
+
+        const myFunc = parameter => return "something"
+        */
+
+
+        /* Standard values for parameters (like in c++):
+            const waffle_greetings = (name = "anonymous") => "Welcome " + name +" Have fun studying"
+        */
+
+        /* Rest Parameter(something new) in functions
+        
+
+        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
