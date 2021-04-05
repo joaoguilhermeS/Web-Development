@@ -89,14 +89,87 @@
         /* Standard values for parameters (like in c++):
             const waffle_greetings = (name = "anonymous") => "Welcome " + name +" Have fun studying"
         */
-
+//------------------------------------NEWNEWNEW
         /* Rest Parameter(something new) in functions
-        
+            - how many arguments u want that are stored in an array that can be acesses inside the function
+
+
+        //HAVE TO TRY THIS ANOTHER TIME
+            function checkWaffles(...args){
+                if (  args.filter(args => args=="jongui")  ){
+                    return "jongui is in the call";
+                }
+                else{
+                    return "sht";
+                }
+            }
+        //HAVE TO TRY THIS ANOTHER TIME
+
+
+        //this one is working
+        function checkLargeNames(...args){
+            return args.filter(args => args.length>6);
+        }
+
+            const result = words.filter(word => word.length > 6);
+
+
+
 
         */
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //-----------------------------------------Something EXTRA STUFF to be apply in Rest Parameter
+    /*
+        -> Method MAP(map):
+            const array1 = [1, 4, 9, 16];
+
+            // pass a function to map
+            const map1 = array1.map(x => x * 2);
+
+            console.log(map1);
+            // expected output: Array [2, 8, 18, 32]
+
+        -> Method APPLY(apply);
+            const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+            const result = words.filter(word => word.length > 6);
+
+            console.log(result);
+            // expected output: Array ["exuberant", "destruction", "present"]
+
+        AS YOU CAN SEE THEY ARE VERY SIMILAR BUT THE "MAP FUNCTION CHANGE THE ORIGINAL" ARRAY AND APPLY DOESN'T
+        (I MEAN YOU'RE FILTERING WHATEVER U WANT)
+
+
+        
+
+
+
+
+
+
+    */
 
 
 
