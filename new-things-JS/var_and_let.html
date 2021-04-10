@@ -177,6 +177,75 @@
 
 
 
+    /* SPREADING AN ARRAY
+
+    arr = [10,20,30,40]
+    let spread = ...arr
+    console.log(spread) => 10 20 30 40
+    var maximus = Math.max.apply(null, arr); // this the way that u'll apply a function for an array
+
+    -------> GETTING THE ATTRIBUTES OF AN OBJECT SIMPLE WAY 1
+    
+    const student = {
+        name:"jongui",
+        age:19
+    }
+    const {name,age} = jongui;
+    console.log(name) //it shows jongui
+    console.log(age) //it shows 19
+
+
+    -------> GETTING THE ATTRIBUTES OF AN OBJECT SIMPLE WAY 2
+    const student = {
+        name:"jongui",
+        age:19
+    }
+    const {name: VAR_NAME, age: VAR_NAME} = student (object name)
+
+    ----for NESTED OBJECTS
+    const waffles = {
+        jongui{
+            name: "João",
+            age : 80
+        }
+
+        name2{
+            name: "Bruh",
+            age: 18 
+        }
+    }
+
+    const {jongui{name: VAR_NAME, age: VAR_AGE}} = jongui
+
+    VAR_NAME -> "João"
+    VAR_AGE -> 80
+
+
+    ---for arrays
+
+    const array = [1,2,3,4,5,6]
+
+    const [a,b] = array
+    // a = 1 & b = 2
+
+    const[a,,,,b] = array
+    a = 1 & b = 6
+
+        ----- particular case
+                const [a, b, ...arr] = [1, 2, 3, 4, 5, 7];
+                console.log(a, b);
+                console.log(arr);
+    */
+
+
+
+
+
+
+
+
+
+
 
 
 
