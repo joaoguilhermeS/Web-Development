@@ -1,4 +1,4 @@
- numpy==1.22.3
+numpy==1.22
 paho_mqtt==1.6.1
 pandas==1.4.2
 pvlib==0.9.1
